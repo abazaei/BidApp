@@ -28,6 +28,11 @@ $RECYCLE.BIN/
 .AppleDouble
 .LSOverride
 
+# Eclipse
+.classpath
+.project
+.settings
+
 # Thumbnails
 ._*
 
