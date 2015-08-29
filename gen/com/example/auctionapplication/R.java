@@ -18,8 +18,8 @@ public final class R {
          would include 7" and 10" devices in landscape (~960dp and ~1280dp respectively).
     
          */
-        public static final int activity_horizontal_margin=0x7f060000;
-        public static final int activity_vertical_margin=0x7f060001;
+        public static final int activity_horizontal_margin=0x7f040000;
+        public static final int activity_vertical_margin=0x7f040001;
     }
     public static final class drawable {
         public static final int buttonshape=0x7f020000;
@@ -78,38 +78,38 @@ public final class R {
         public static final int auction_controller=0x7f070003;
     }
     public static final class string {
-        public static final int Add_an_Item=0x7f04001b;
-        public static final int Auctionee=0x7f040003;
-        public static final int Bid=0x7f040004;
-        public static final int Bid_$5=0x7f040008;
-        public static final int Change_Image=0x7f040016;
-        public static final int Create_an_Item=0x7f040010;
-        public static final int Delete_Item=0x7f04001f;
-        public static final int Description=0x7f040011;
-        public static final int Edit_Item=0x7f04001d;
-        public static final int Edit_an_Item=0x7f04001e;
-        public static final int End_Date=0x7f040015;
-        public static final int Enter_End_Date=0x7f040019;
-        public static final int Enter_Start_Date=0x7f04001a;
-        public static final int Input_your_search=0x7f04000c;
-        public static final int Item=0x7f040005;
-        public static final int Item_Description=0x7f040013;
-        public static final int Item_Name=0x7f040012;
-        public static final int Mercedes_Benz=0x7f040007;
-        public static final int Price=0x7f040014;
-        public static final int Rate_My_App=0x7f040009;
-        public static final int Search=0x7f04000b;
-        public static final int Search_Button=0x7f04000d;
-        public static final int Start=0x7f040006;
-        public static final int Start_Date=0x7f040018;
-        public static final int action_settings=0x7f040002;
-        public static final int addItem=0x7f040017;
-        public static final int app_name=0x7f040000;
-        public static final int hello_world=0x7f040001;
-        public static final int name_=0x7f04000f;
-        public static final int title_activity_item_add=0x7f04000e;
-        public static final int title_activity_search=0x7f04000a;
-        public static final int updateItem=0x7f04001c;
+        public static final int Add_an_Item=0x7f05001b;
+        public static final int Auctionee=0x7f050003;
+        public static final int Bid=0x7f050004;
+        public static final int Bid_$5=0x7f050008;
+        public static final int Change_Image=0x7f050016;
+        public static final int Create_an_Item=0x7f050010;
+        public static final int Delete_Item=0x7f05001f;
+        public static final int Description=0x7f050011;
+        public static final int Edit_Item=0x7f05001d;
+        public static final int Edit_an_Item=0x7f05001e;
+        public static final int End_Date=0x7f050015;
+        public static final int Enter_End_Date=0x7f050019;
+        public static final int Enter_Start_Date=0x7f05001a;
+        public static final int Input_your_search=0x7f05000c;
+        public static final int Item=0x7f050005;
+        public static final int Item_Description=0x7f050013;
+        public static final int Item_Name=0x7f050012;
+        public static final int Mercedes_Benz=0x7f050007;
+        public static final int Price=0x7f050014;
+        public static final int Rate_My_App=0x7f050009;
+        public static final int Search=0x7f05000b;
+        public static final int Search_Button=0x7f05000d;
+        public static final int Start=0x7f050006;
+        public static final int Start_Date=0x7f050018;
+        public static final int action_settings=0x7f050002;
+        public static final int addItem=0x7f050017;
+        public static final int app_name=0x7f050000;
+        public static final int hello_world=0x7f050001;
+        public static final int name_=0x7f05000f;
+        public static final int title_activity_item_add=0x7f05000e;
+        public static final int title_activity_search=0x7f05000a;
+        public static final int updateItem=0x7f05001c;
     }
     public static final class style {
         /** 
@@ -132,33 +132,11 @@ public final class R {
         res/values-v11/styles.xml on API 14+ devices.
     
  API 14 theme customizations can go here. 
-
-        Base application theme, dependent on API level. This theme is replaced
-        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
-    
-
-            Theme customizations available in newer API levels can go in
-            res/values-vXX/styles.xml, while customizations related to
-            backward-compatibility can go here.
-        
-
-        Base application theme for API 11+. This theme completely replaces
-        AppBaseTheme from res/values/styles.xml on API 11+ devices.
-    
- API 11 theme customizations can go here. 
-
-        Base application theme for API 14+. This theme completely replaces
-        AppBaseTheme from BOTH res/values/styles.xml and
-        res/values-v11/styles.xml on API 14+ devices.
-    
- API 14 theme customizations can go here. 
          */
-        public static final int AppBaseTheme=0x7f050000;
+        public static final int AppBaseTheme=0x7f060000;
         /**  Application theme. 
  All customizations that are NOT specific to a particular API-level can go here. 
- Application theme. 
- All customizations that are NOT specific to a particular API-level can go here. 
          */
-        public static final int AppTheme=0x7f050001;
+        public static final int AppTheme=0x7f060001;
     }
 }
