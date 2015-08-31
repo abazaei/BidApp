@@ -95,7 +95,7 @@ public class SearchView extends LinearLayout implements View<SearchModel>, Model
 //				Log.w("ERRORONCLICK!!!!", searchQuery.getText().toString());
 				
 				listener.searchItems(searchQuery.getText().toString());
-				listener.sendCrud(CrudModel.Command.ADD, "asdf");
+				listener.sendCrud(CrudModel.Command.READ, searchQuery.getText().toString());
 				
 
 			}
