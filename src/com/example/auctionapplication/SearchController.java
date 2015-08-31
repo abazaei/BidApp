@@ -82,6 +82,7 @@ public class SearchController extends Controller<SearchModel> implements SearchV
 		Intent intent = getIntent();
 		Bundle extra = this.getIntent().getExtras(); //Gets all the information into this bundle
 		this.viewName = "activity_search";
+		
 		if(extra != null)
 		{
 			 b = (boolean) extra.get("firstTime");
@@ -98,6 +99,25 @@ public class SearchController extends Controller<SearchModel> implements SearchV
 
 		super.onCreate(bundle); 
 		setContentView(); //sets the viewname and model, MVC Helper.
+		//place the get Commands after you create the Connecttion here
+		
+		//this is for writing, when we dont want anything returned
+		//Socket s = new Socket("10.0.2.2",31415);
+		//try(ObjectOutputStream oos = new ObjectOutputStream(s.getOutputStream()))
+		//	oos.write(new CrudModel(CrudModel.DELETE, //this is gthe ID "12");
+		
+		//this is for Reading which I am pretty sure it would work.
+		//AuctionItem ai;
+		//Socket s = new Socket("10.0.2.2",31415);
+		//try(ObjectOutputStream oos = new ObjectOutputStream(s.getOutputStream()))
+		//	oos.write(new CrudModel(CrudModel.RETRIEVE, //this is the ID "12");
+		//	ai = oos.readObject();
+		
+		//this is for creating
+		//Socket s = new Socket("10.0.2.2",31415);
+		//try(ObjectOutputStream oos = new ObjectOutputStream(s.getOutputStream()))
+		//	oos.write(new CrudModel(CrudModel.CREATE, //this is the information 
+		//       for the new object which will align with the regex on the server "ID: 12 NAME: name DESC: desc STARTPRICE: 1.00 STARTDATE: 1/1/2000 ENDDATE: 1/2/2000 IMGREF: lkjfaewnkwan");
 
 	}
 	
