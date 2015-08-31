@@ -7,6 +7,8 @@ import android.util.AttributeSet;
 import android.util.Log;
 
 import com.example.auctionapplication.R;
+import com.example.auctionapplicationIntermed.CrudModel;
+import com.example.auctionapplicationIntermed.CrudModel.Command;
 
 import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
@@ -59,6 +61,7 @@ public class SearchView extends LinearLayout implements View<SearchModel>, Model
 		void searchItems(String txt);
 		void switchPage(String s);
 		void startItemAddPage();
+		void sendCrud(Command add, String string);
 	}
 
 
@@ -92,6 +95,7 @@ public class SearchView extends LinearLayout implements View<SearchModel>, Model
 //				Log.w("ERRORONCLICK!!!!", searchQuery.getText().toString());
 				
 				listener.searchItems(searchQuery.getText().toString());
+				listener.sendCrud(CrudModel.Command.ADD, "asdf");
 				
 
 			}
